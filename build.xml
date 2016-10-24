@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding='UTF-8' ?>
+<project name="devweb" default="war">
+	<target name="war">
+		<war destfile="devweb.war" needxmlfile="false">
+		</war>
+	</target>
+</project>
