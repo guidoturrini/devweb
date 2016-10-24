@@ -14,8 +14,9 @@
 
 
 
-	<target name="war" depends="init">
-		<war destfile="${deploy.dir}/devweb.war" webxml="web.xml">
-		</war>
-	</target>-->
+	-->
+	<target name="war">
+		<!--<war destfile="${deploy.dir}/devweb.war" webxml="web.xml">
+		</war>-->
+	</target>
 </project>
