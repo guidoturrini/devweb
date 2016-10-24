@@ -4,6 +4,10 @@
 
 	<property name="build.dir" value="build" />
 
+	<target name="init">
+		<mkdir dir="${build.dir}" />
+	</target>
+
 	<!--<target name="init" depends="clean">
 
 	</target>
@@ -15,7 +19,7 @@
 
 
 	-->
-	<target name="war">
+	<target name="war" depends="init">
 		<!--<war destfile="${deploy.dir}/devweb.war" webxml="web.xml">
 		</war>-->
 	</target>
